@@ -27,7 +27,7 @@ mutatingWebhookTimeoutSeconds: 1
 mutatingWebhookCustomRules: {}
 mutationAnnotations: false
 auditChunkSize: 500
-logLevel: INFO
+logLevel: FLOOF
 logDenies: false
 logMutations: false
 emitAdmissionEvents: false
