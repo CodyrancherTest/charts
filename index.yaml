@@ -1,0 +1,32 @@
+apiVersion: v1
+entries:
+  epinio:
+  - annotations:
+      artifacthub.io/license: Apache-2.0
+      catalog.cattle.io/auto-install: epinio-crd=match
+      catalog.cattle.io/certified: rancher
+      catalog.cattle.io/display-name: Testing
+      catalog.cattle.io/experimental: "true"
+      catalog.cattle.io/kube-version: '>= 1.20.0-0 < 1.25.0-0'
+      catalog.cattle.io/namespace: cattle-testing
+      catalog.cattle.io/permits-os: linux,windows
+      catalog.cattle.io/rancher-version: '>= 2.7.0-0 < 2.8.0-0'
+      catalog.cattle.io/release-name: testing
+      catalog.cattle.io/type: app
+    apiVersion: v2
+    appVersion: v1.4.0
+    created: "2022-12-09T09:38:26.841980947-07:00"
+    description: Testing
+    keywords:
+    - epinio
+    - paas
+    maintainers:
+    - email: team@epinio.io
+      name: SUSE
+    name: epinio
+    sources:
+    - https://github.com/epinio/epinio
+    urls:
+    - new-chart-0.1.0.tgz
+    version: 0.1.0
+generated: "2022-02-25T11:29:45.848360265+05:30"
