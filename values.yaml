@@ -80,4 +80,4 @@ nodeSelector: {}
 tolerations: []
 
 affinity: {}
-logLevel: NEXTONE
+logLevel: TESTING
